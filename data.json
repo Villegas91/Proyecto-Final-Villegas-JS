@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "categoria": "computacion",
+    "marca": "Lenovo",
+    "precio": 100000,
+    "cantidad": 1,
+    "img": "./img/lenovo.png"
+  },
+  {
+    "id": 1,
+    "categoria": "computacion",
+    "marca": "Dell",
+    "precio": 150000,
+    "cantidad": 1,
+    "img": "./img/dell.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "computacion",
+    "marca": "Exo",
+    "precio": 200000,
+    "cantidad": 1,
+    "img": "./img/exo.png"
+  },
+  {
+    "id": 3,
+    "categoria": "computacion",
+    "marca": "Apple",
+    "precio": 300000,
+    "cantidad": 1,
+    "img": "./img/macbook.jpg"
+  },
+  {
+    "id": 4,
+    "categoria": "celular",
+    "marca": "Iphone 14 pro Max",
+    "precio": 350000,
+    "cantidad": 1,
+    "img": "./img/iphone.jpg"
+  },
+  {
+    "id": 5,
+    "categoria": "celular",
+    "marca": "Samsung S22 plus",
+    "precio": 300000,
+    "cantidad": 1,
+    "img": "./img/samsung.jpg"
+  },
+  {
+    "id": 6,
+    "categoria": "celular",
+    "marca": "Motorola g20",
+    "precio": 300000,
+    "cantidad": 1,
+    "img": "./img/motorola.jpg"
+  },
+  {
+    "id": 7,
+    "categoria": "celular",
+    "marca": "Huawei nova9",
+    "precio": 250000,
+    "cantidad": 1,
+    "img": "./img/huawei.jpg"
+  },
+  {
+    "id": 8,
+    "categoria": "impresora",
+    "marca": "Epson",
+    "precio": 32000,
+    "cantidad": 1,
+    "img": "./img/epson.jpg"
+  },
+  {
+    "id": 9,
+    "categoria": "impresora",
+    "marca": "Hp",
+    "precio": 20600,
+    "cantidad": 1,
+    "img": "./img/hp.jpg"
+  },
+  {
+    "id": 10,
+    "categoria": "impresora",
+    "marca": "Brother",
+    "precio": 18500,
+    "cantidad": 1,
+    "img": "./img/brother.jpg"
+  },
+  {
+    "id": 11,
+    "categoria": "impresora",
+    "marca": "Canon",
+    "precio": 25000,
+    "cantidad": 1,
+    "img": "./img/canon.png"
+  }
+]

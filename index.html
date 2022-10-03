@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+  </head>
+  <!--CONTENEDOR DE LA PAGINA PARA DISPLAY GRID!-->
+  <body class="container">
+    <!--CABECERA CON EL LOGO, EL MENU DEPLEGABLE,LOGIN Y CARRITO!-->
+
+    <header class="header">
+      <div class="logo">
+        <a href="index.html"><h1>TechMarket</h1></a>
+        <div id = "buscador">
+          <input type="search" placeholder="Buscar productos" id="search">
+          <div  id="lupa" class="buscador-logo">
+          <img  src="./img/busqueda.png" alt="lupa">
+          </div>
+        </div>
+      </div>
+      <div class="barra">
+        <ul>
+          <a href="#"><li onclick="filtrarCelular()">Lenovo</li></a>
+          <a href="#"><li onclick="filtrarComputacion()">Computadoras</li></a>
+          <a href="#"><li onclick="filtrarImpresora()">Impresoras</li></a>
+          <a href="./pages/contacto.html"><li>Contacto</li></a>
+          <button id="carrito">🛒</button>
+          <div class="totalCompra">
+            <p>Total $</p>
+            <span id="totalCompra"></span>
+          </div>
+          </div>
+        </ul>
+      </div>
+    </header> 
+    <div class="modal-contenedor">
+      <div class="modal-carrito">
+          <h3>Carrito</h3>
+          <button id="carritoCerrar"><i class="fas fa-times-circle">x</i></button>
+          <div id="carrito-contenedor">
+          </div>
+          <p class="precioProducto">Precio total: $  <span id="precioTotal">0</span></p>
+          <div class="pie-cart">
+          <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+          <a href="./pages/contacto.html"><button  id="confirmarCompra" class="boton-agregar">Confirmar compra</button></a>
+          </div>
+      </div>
+  </div>
+
+
+    
+    
+    <section class="resto">      
+      <article id="ofertas"> 
+      </article>
+      <!-- <article class="category">
+        <div class="filter"><p>Entrega en el día</p>
+          <input type="checkbox" name="" id="">
+        </div>
+        <div class="filter"><p></p></div>
+        <div class="filter"></div>
+        <div class="filter"></div>
+        <div class="filter"></div>
+      </article> -->
+    </section>
+    <footer class="pie">
+      <div class="logo-pie"><h2>TechMarket</h2></div>
+      <a href="./pages/contacto.html">Contacto</a>
+      <div class="redes">
+        <ul>
+          <li class="iconos"><a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1662524771&extra_1=s%7Cc%7C514612296931%7Ce%7Cfacebook%7C&placement=&creative=514612296931&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1662524771%26adgroupid%3D67039035794%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1000073%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIvIzmt7D09wIVMxXUAR0qnQfeEAAYASAAEgKeRPD_BwE"Target="_blank"><img src="./img/face.png" alt="face"></a></li>
+          <li class="iconos"><a href="https://www.instagram.com/"Target="_blank"><img src="./img/insta.png" alt="insta"></a></li>
+          <li class="iconos"><a href="https://twitter.com/?lang=es"Target="_blank"><img src="./img/twiter.png" alt="twiter"></li></a>
+          <li class="iconos"><a href="https://web.whatsapp.com/"Target="_blank"><img src="./img/whatsapp.png" alt="whatsapp"></li></a>
+      </ul>
+    </div>
+      <div class="copy"><p>
+        © Copyright 2022 TechMarket
+      </p></div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+
+
+    
+  </body>
+</html>
